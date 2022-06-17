@@ -8,12 +8,15 @@ let arregloCosas = [
     123,
     'Oscar',
     1 + 2,
-    //fuction(){},
+    'hola mundo',
     ()=>{},
     {a:1},
     ['X', 'Megaman', 'Zero', 'Dr. Light',[
         'Dr. Wily',
         'Woodman'
-    ]],
-
+    ]]
 ];
+
+//console.log({arregloCosas});
+console.log(arregloCosas[2]);
+console.log(arregloCosas[7][4][1]);
